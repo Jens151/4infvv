@@ -1,5 +1,5 @@
 getal1 = float(input("Geef getal 1: "))
-getal1 = float(input("Geef getal 2: "))
+getal2 = float(input("Geef getal 2: "))
 bewerking_naar_keuze = input("Welke bewerking wil je gebruiken, kies uit: optellen, aftrekken, vermenigvuldigen, delen of machten: ")
 if bewerking_naar_keuze == "optellen":
     print("Het resultaat is: ", getal1 + getal2)
