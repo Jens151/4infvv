@@ -2,7 +2,7 @@ from datetime import date
 huidig_jaar = date.today().year
 geboorte_jaar = int(input("In welk jaar ben je geboren?: "))
 leeftijd = (huidig_jaar - geboorte_jaar)
-print("Dit jaar word je" ,leeftijd + ".")
+print("Dit jaar word je", leeftijd, ".")
 if leeftijd < 12:
     print("Je mag naar films voor alle leeftijden.")
 elif leeftijd < 15:
